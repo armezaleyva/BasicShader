@@ -10,6 +10,10 @@ public class MyCharacter : MonoBehaviour
     float colorPower = 1f;
     [SerializeField]
     Slider sldColorPower;
+    [SerializeField]
+    Slider sldNormalAmount;
+    [SerializeField]
+    Slider sldRimPower;
 
     // Start is called before the first frame update
     void Start()
@@ -21,5 +25,7 @@ public class MyCharacter : MonoBehaviour
     void Update()
     {
         render.material.SetFloat("_ColorPower", sldColorPower.value);
+        render.material.SetFloat("_NormalAmount", sldNormalAmount.value);
+        render.material.SetFloat("_RimPower", sldRimPower.value);
     }
 }
