@@ -37,6 +37,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 4abc3647bcbe47949ac416412b5aa14e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - Texture2D_EB61721F:
+        m_Texture: {fileID: 2800000, guid: baf5a3b2183783d4eb728f9e6f8571bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -78,7 +82,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
-    - _NormalAmount: 1
+    - _NormalAmount: 0.5
     - _OcclusionStrength: 1
     - _QueueOffset: 0
     - _ReceiveShadows: 1
